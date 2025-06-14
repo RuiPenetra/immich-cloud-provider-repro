@@ -13,7 +13,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.2
-    created: "2025-06-14T20:29:10.3920015+01:00"
+    created: "2025-06-14T20:54:32.5614451+01:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -39,6 +39,6 @@ entries:
     sources:
     - https://github.com/bitnami/charts/tree/main/bitnami/nginx
     urls:
-    - https://RuiPenetra.github.io/immich-cloud-provider-repro/charts/nginx-15.3.3.tgz
+    - https://ruipenetra.github.io/immich-cloud-provider-repro/nginx-15.3.3.tgz
     version: 15.3.3
-generated: "2025-06-14T20:29:10.3875272+01:00"
+generated: "2025-06-14T20:54:32.5569064+01:00"
