@@ -8,7 +8,7 @@ entries:
           description: Made chart available through OCI repository
     apiVersion: v2
     appVersion: v1.119.0
-    created: "2025-06-14T21:25:38.5165726+01:00"
+    created: "2025-06-14T21:30:46.3404221+01:00"
     dependencies:
     - name: common
       repository: https://bjw-s-labs.github.io/helm-charts
@@ -22,7 +22,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 20.13.2
     description: A chart to power Immich (immich.app) running on kubernetes
-    digest: e772017be13139e482affc00ba5316aead1ffdbe86b26a29e268e76f0819dc80
+    digest: 93309a8c58e581aa236454d041f6b9ce407b990ede3962d4f64ca4537217c528
     home: https://immich.app/
     icon: https://raw.githubusercontent.com/immich-app/immich/main/design/immich-logo.svg
     maintainers:
@@ -50,7 +50,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.25.2
-    created: "2025-06-14T21:25:38.520083+01:00"
+    created: "2025-06-14T21:30:46.3454763+01:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -78,4 +78,4 @@ entries:
     urls:
     - https://RuiPenetra.github.io/immich-cloud-provider-repro/nginx-15.3.3.tgz
     version: 15.3.3
-generated: "2025-06-14T21:25:38.4959422+01:00"
+generated: "2025-06-14T21:30:46.3183825+01:00"
