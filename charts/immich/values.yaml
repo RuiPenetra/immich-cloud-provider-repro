@@ -17,6 +17,8 @@ env:
 image:
   tag: v1.119.0
 
+quote: 1Gi
+
 immich:
   metrics:
     # Enabling this will create the service monitors needed to monitor immich with the prometheus operator
