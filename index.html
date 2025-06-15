@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>immich-cloud-provider-repro Helm Charts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2{
+        margin-bottom: 0;
+    }
+    code {
+      background: #eaeaea;
+      padding: 0.4em 0.1em;
+      border-radius: 4px;
+      display: flex;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .chart-list {
+      margin-top: 2em;
+    }
+  </style>
 </head>
 <body>
-    <h5>TEste</h5>
+  <h1>immich-cloud-provider-repro Helm Charts</h1>
+  <p>This is the official Helm chart repository for the Immich Cloud Provider.</p>
+
+  <h2>How to use</h2>
+    <hr>
+  <pre>
+    <code>
+        helm repo add immich-cloud-provider https://RuiPenetra.github.io/immich-cloud-provider-repro <br>
+        helm repo update <br>
+        helm search repo immich-cloud-provider
+    </code>
+  </pre>
+  <br>
+  <h2>Available Charts</h2>
+  <hr>
+  <div class="chart-list">
+    <ul>
+      <li><a href="./charts/immich-0.4.3.tgz">immich</a> – version 0.4.3</li>
+    </ul>
+  </div>
+
+  <footer style="margin-top: 3em; font-size: 0.9em;">
+    <p>Maintained by Project Team • GitHub: <a href="https://github.com/RuiPenetra/immich-cloud-provider-repro" target="_blank">immich-cloud-provider-repro</a></p>
+  </footer>
 </body>
 </html>
